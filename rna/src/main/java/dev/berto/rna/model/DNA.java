@@ -11,7 +11,6 @@ public class DNA {
         }
         this.sequence = sequence;
     }
-
     public String getSequence() {
         return sequence;
     }
