@@ -9,7 +9,7 @@ public class TranscriberControllerTest {
      private final TranscriberController controller = new TranscriberController();
     
     @Test
-    @DisplayName("Test del controlador del transcriptor del ADN")
+    @DisplayName("DNA Transcriber Controller Test")
     public void transcribeTest() {
         assertEquals("CGAU", controller.transcribeController("GCTA"));
     }
