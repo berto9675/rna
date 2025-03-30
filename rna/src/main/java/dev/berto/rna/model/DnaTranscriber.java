@@ -3,7 +3,7 @@ package dev.berto.rna.model;
 import java.util.Map;
 
 public class DnaTranscriber implements Transcriber {
-     private static final Map<Character, Character> TRANSCRIPTION_MAP = Map.of(
+    private static final Map<Character, Character> TRANSCRIPTION_MAP = Map.of(
         'G', 'C', 'C', 'G', 'T', 'A', 'A', 'U'
     );
 
@@ -22,5 +22,6 @@ public class DnaTranscriber implements Transcriber {
         
         return rna.toString();
     }
-
 }
+
+

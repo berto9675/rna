@@ -5,7 +5,7 @@ public class DNA {
 
     public DNA(String sequence) {
         if (sequence == null) {
-            throw new IllegalArgumentException("Error en la secuencia.");
+            throw new IllegalArgumentException("Error in the sequence..");
         } else if (sequence.isBlank()) {
             throw new IllegalArgumentException("The DNA sequence cannot be empty.");
         }
